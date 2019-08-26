@@ -9,6 +9,12 @@ body {
     text-align: center;
 }
 
+.description {
+    width: 500px;
+    margin: 20px auto; /*Vertical Horizontal*/
+    text-align: center:
+}
+
 .box {
     border: 1px solid #5d6063;
     margin: 10px;
