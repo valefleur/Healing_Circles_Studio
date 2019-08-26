@@ -1,0 +1,40 @@
+body {
+    margin: 30;
+    font-family: sans-serif;
+    color: black;
+    background: #3d9970;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.box {
+    border: 1px solid #5d6063;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    margin: 20px auto; /*Vertical Horizontal*/
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #5d6063;
+    color: #e8fae1;
+    width: 190px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    padding: 1px;
+}
+
+.form {
+    margin-top: 3px;
+}

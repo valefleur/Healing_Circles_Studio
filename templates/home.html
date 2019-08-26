@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Healing Circles Studio</title>
+{% endblock %} 
+
+{% block body %}
+<div class="welcome">
+    <h1>Healing Circles Studio</h1>
+    <h2>Welcomes You</h2>
+</div>
+<div class="journeys">
+    <div class="box">
+        <form action='/learn'>
+        <input type="submit" class="button" value="Learn More">
+        </form>
+    </div>
+    <div class="box">
+        <form action='/book'>
+        <input type="submit" class="button" value="Book a Class">
+        </form>
+    </div>
+    <div class="box">
+        <form action='/pics'>
+        <input type="submit" class="button" value="View Pictures">
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -18,5 +18,10 @@ def book_a_class():
     return 'This is the Book a Class page! It is still TBD.'
 
 
+@app.route('/pics')
+def pictures():
+    return 'This is the Pictures page! It is still TBD.'
+
+
 if __name__ == '__main__':
     app.run(debug=True)
