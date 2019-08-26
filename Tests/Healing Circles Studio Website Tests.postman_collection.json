@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "2218f883-434b-40e5-943c-538e2d513564",
+		"name": "Healing Circles Studio Website Tests",
+		"description": "Automated tests to ensure that the Healing Circles Studio website is functioning.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Home",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "218b5827-fcf3-4e0d-a895-840d409d8a31",
+						"exec": [
+							"pm.test(\"Status code is 200\", function() ",
+							"    { ",
+							"        pm.response.to.have.status(200); ",
+							"        ",
+							"    });",
+							"    ",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"Healing Circles Studio\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}",
+					"host": [
+						"{{url}}"
+					]
+				},
+				"description": "Send a GET request to the '/' route."
+			},
+			"response": []
+		},
+		{
+			"name": "GET Learn More",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bf8eaab3-a554-48f8-afbe-7913524a0b66",
+						"exec": [
+							"pm.test(\"Status code is 200\", function() ",
+							"    { ",
+							"        pm.response.to.have.status(200); ",
+							"        ",
+							"    });",
+							"    ",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"It is still TBD.\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/learn?",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"learn"
+					]
+				},
+				"description": "Send a GET request to the '/learn?' route."
+			},
+			"response": []
+		},
+		{
+			"name": "GET Book a Class",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cc2bde06-b5fe-46cd-a67f-d87fb1a70b43",
+						"exec": [
+							"pm.test(\"Status code is 200\", function() ",
+							"    { ",
+							"        pm.response.to.have.status(200); ",
+							"        ",
+							"    });",
+							"    ",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"It is still TBD.\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/book?",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"book"
+					]
+				},
+				"description": "Send a GET request to the '/book?' route."
+			},
+			"response": []
+		},
+		{
+			"name": "GET Pictures",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cc2bde06-b5fe-46cd-a67f-d87fb1a70b43",
+						"exec": [
+							"pm.test(\"Status code is 200\", function() ",
+							"    { ",
+							"        pm.response.to.have.status(200); ",
+							"        ",
+							"    });",
+							"    ",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"It is still TBD.\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/pics?",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"pics"
+					]
+				},
+				"description": "Send a GET request to the '/pics?' route."
+			},
+			"response": []
+		}
+	]
+}

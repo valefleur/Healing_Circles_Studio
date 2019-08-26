@@ -1,0 +1,298 @@
+{
+	"id": "513e8128-7665-46ab-8800-861a17c6735e",
+	"name": "Healing Circles Studio Website Tests",
+	"allTests": [],
+	"timestamp": "2019-08-26T04:41:36.132Z",
+	"collection_id": "2218f883-434b-40e5-943c-538e2d513564",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "53e3960f-cac4-43d6-8fbc-cde8809c18bd",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "2218f883-434b-40e5-943c-538e2d513564",
+		"name": "Healing Circles Studio Website Tests",
+		"description": "Automated tests to ensure that the Healing Circles Studio website is functioning.",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"d259dae9-b7f7-4066-9f6e-a1919aa28763",
+			"8efc783a-6ee2-4f4a-904f-7b10353b4e0a",
+			"616cf5d1-7436-4f81-962c-a384f9c3a11c",
+			"38d974b0-0cd9-4832-9ba3-fba8a14c414e"
+		],
+		"folders_order": [],
+		"owner": "8575248",
+		"favorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "GET Home",
+			"id": "d259dae9-b7f7-4066-9f6e-a1919aa28763",
+			"url": "http://127.0.0.1:5000/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"5"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "5",
+			"totalRequestTime": "5",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET Learn More",
+			"id": "8efc783a-6ee2-4f4a-904f-7b10353b4e0a",
+			"url": "http://127.0.0.1:5000//learn",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"11"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": false
+				}
+			],
+			"time": "11",
+			"totalRequestTime": "11",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET Book a Class",
+			"id": "616cf5d1-7436-4f81-962c-a384f9c3a11c",
+			"url": "http://127.0.0.1:5000//book",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"6"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": false
+				}
+			],
+			"time": "6",
+			"totalRequestTime": "6",
+			"iterationResults": {}
+		},
+		{
+			"name": "GET Pictures",
+			"id": "38d974b0-0cd9-4832-9ba3-fba8a14c414e",
+			"url": "http://127.0.0.1:5000//pics",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"12"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": false
+				}
+			],
+			"time": "12",
+			"totalRequestTime": "12",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 5,
+	"totalFail": 3,
+	"totalTime": 34,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "GET Home",
+			"id": "d259dae9-b7f7-4066-9f6e-a1919aa28763",
+			"url": "http://127.0.0.1:5000/",
+			"time": "2019-08-26T04:41:36.132Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "GET Learn More",
+			"id": "8efc783a-6ee2-4f4a-904f-7b10353b4e0a",
+			"url": "http://127.0.0.1:5000//learn",
+			"time": "2019-08-26T04:41:36.132Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "GET Book a Class",
+			"id": "616cf5d1-7436-4f81-962c-a384f9c3a11c",
+			"url": "http://127.0.0.1:5000//book",
+			"time": "2019-08-26T04:41:36.132Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "GET Pictures",
+			"id": "38d974b0-0cd9-4832-9ba3-fba8a14c414e",
+			"url": "http://127.0.0.1:5000//pics",
+			"time": "2019-08-26T04:41:36.132Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		}
+	],
+	"synced": false
+}
