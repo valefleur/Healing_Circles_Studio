@@ -13,6 +13,7 @@ Today, we will be moving the website for Healing Circles Studio from the built-i
 \
 Read the official documentation here: http://docs.gunicorn.org/en/stable/\
 I\'92m also following this tutorial: https://coderwall.com/p/pstm1w/deploying-a-flask-app-at-heroku\
+This one is better for beginners: https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524\
 Here is a thorough overview of Python web servers: https://www.fullstackpython.com/wsgi-servers.html\
 \
 Install Gunicorn and Run Locally\
