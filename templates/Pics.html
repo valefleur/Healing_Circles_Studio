@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Pictures</title>
+{% endblock %}
+
+{% block body %}
+<div class="welcome">
+    <h1>Healing Circles Studio</h1>
+    <h2>Pictures</h2>
+</div>
+
+<div class="pics">
+    <img class="pic" src="{{url_for('static', filename='images/OneSilk.JPG')}}"
+    alt="One aerial silk."/>
+    <img class="pic" src="{{url_for('static', filename='images/SleepingInStars.JPG')}}"
+    alt="Two aerial silks, with green stars."/>
+    <img class="pic" src="{{url_for('static', filename='images/TwoInHammocksWithStars.JPG')}}"
+    alt="Two aerial yogis sleeping in aerial silk hammocks."/>
+</div>
+
+{% endblock %}

@@ -40,7 +40,7 @@ def book_a_class():
 
 @app.route('/pics', methods=['GET'])
 def pictures():
-    return 'This is the Pictures page! It is still TBD.'
+    return render_template('Pics.html')
 
 
 if __name__ == '__main__':
